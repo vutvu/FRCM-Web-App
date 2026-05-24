@@ -152,22 +152,26 @@ label {
 @media screen and (max-width: 1200px) {
 
     .title {
-        font-size: 38px;
+        font-size: 42px;
+    }
+
+    p {
+        font-size: 28px !important;
     }
 
     label {
-        font-size: 18px !important;
+        font-size: 24px !important;
     }
 
     .stNumberInput input {
-        font-size: 18px !important;
+        font-size: 24px !important;
+        height: 58px !important;
     }
 
     .result-value {
-        font-size: 44px;
+        font-size: 50px;
     }
 }
-
 </style>
 """, unsafe_allow_html=True)
 
